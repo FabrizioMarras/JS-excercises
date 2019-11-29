@@ -20,3 +20,16 @@ console.log(result);
 # # # # 
  # # # #
 */
+
+
+// To generalise for any size: 
+const size = 8;
+let result = "";
+for (let y = 0; y < size; y++) {
+  for (let x = 0; x < size; x++) {      
+    (x + y) % 2 === 0 ? result += " " : result += "#";
+  }
+  result += "\n";
+}
+
+console.log(result);
