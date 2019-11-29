@@ -1,5 +1,5 @@
 /*
-generate a lloop to log the following triangle in the console:
+Create a loop to log the following triangle in the console:
 
 #
 ##
